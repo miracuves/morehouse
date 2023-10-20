@@ -1,0 +1,34 @@
+{
+  "name": "roomies",
+  "version": "1.0.0",
+  "description": "roomies api",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddysundowner/roomiesapi.git"
+  },
+  "keywords": [
+    "roomies"
+  ],
+  "author": "fredrick mundia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freddysundowner/roomiesapi/issues"
+  },
+  "homepage": "https://github.com/freddysundowner/roomiesapi#readme",
+  "dependencies": {
+    "agora-access-token": "^2.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "request": "^2.88.2"
+  }
+}
